@@ -8,6 +8,7 @@ Siga as instruções contidas no README, para a execução da sua prova.
 
 1. Faça um _fork_ deste repositório, para sua conta do github.
 1. Faça um _clone_ do repositório para sua máquina.
+1. Leia as questões com atenção. Para a maioria das respostas, basta você ler com calma e transformar o texto em código java.
 1. Responda corretamente às questões. A maioria das questões é de programação. Você não precisa compilar ou executar o código. Apenas complete o código, conforme o solicitado. Os arquivos terão seus nomes indicados nas questões e, também estarão armazenados em pastas, com o número das questões.
 1. As questões não estão difíceis **não copie do seu colega**. Repositórios serão comparados arquivo por arquivo. Provas iguais serão **desconsideradas**.
 1. As questões estão especificadas abaixo, mas também estarão nos respectivos arquivos.
