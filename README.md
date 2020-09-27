@@ -52,7 +52,7 @@ public Circulo(double raio, String cor)
 #### (b) - 2 pontos
 Utilizando o conceito de _composição_, crie uma classe `Cilindro` que tenha um atributo `base` de tipo `Circulo`, e um atributo `altura` de tipo `double`. Crie um _construtor_ para essa classe, que não receba parâmetros. Este construtor deve configurar o valor de `altura` para `1.0` e deve inicializar a `base` (criar o objeto).
 
-Para esta questão, use o arquivo: [Cilindro](./Questão 01/Cilindro.java).
+Para esta questão, use o arquivo: [Cilindro](https://github.com/gregori/Avaliacao1Mobile/blob/master/Quest%C3%A3o%2001/Cilindro.java).
 
 ### (c) - 1 ponto
 Um aluno escreveu o seguinte código para a classe `Circulo`:
@@ -65,7 +65,7 @@ public String toString() {
 
 O que a palavra `@Override` indica? Por que ela foi colocada neste método da classe?
 
-Esta questão pode ser respondida no mesmo arquivo [Circulo](./Questão 01/Circulo.java), como comentário
+Esta questão pode ser respondida no mesmo arquivo [Circulo](https://github.com/gregori/Avaliacao1Mobile/blob/master/Quest%C3%A3o%2001/Circulo.java), como comentário
 
 ### Questão 02
 Observe o código a seguir:
@@ -81,11 +81,11 @@ public interface Redimensionavel {
 ```
 
 #### (a) - 1,5 ponto
-Arquivo: [Quadrado](./Questão 02/Quadrado.java)
+Arquivo: [Quadrado](https://github.com/gregori/Avaliacao1Mobile/blob/master/Quest%C3%A3o%2002/Quadrado.java)
 Implemente uma classe `Quadrado`, que possui um atributo `lado` de tipo `double`. Implemente um construtor que preenche o atributo `lado`. Faça com que essa classe __implemente__ a interface `Geometria`.
 
 #### (b) - 1,5 ponto
-Arquivo: [QuadradoRedimensionavel](./Questão 02/QuadradoRedimensionavel.java)
+Arquivo: [QuadradoRedimensionavel](https://github.com/gregori/Avaliacao1Mobile/blob/master/Quest%C3%A3o%2002/QuadradoRedimensionavel.java)
 Implemente uma classe `QuadradoRedimensionavel`, que é _subclasse_ de `Quadrado` e implementa a interface `Redimensionavel`. Essa classe deve _implementar_  um construtor que recebe o valor de `lado` e o transmite para o construtor da __superclasse__.
 
 
@@ -95,10 +95,11 @@ Observe o diagrama abaixo, que modela classes para um jogo de truco.
 ![Classes de baralho](http://yuml.me/9289a384.jpg, "Classes Carta e Baralho")
 
 #### (a) - 1,5 ponto
-Implemente uma classe `Jogador` que contenha os atributos: `mao`, do tipo `Carta[]` (um vetor de cartas) e `indiceMao` do tipo `int`. A `mao` deve ter tamanho `3`. O `indiceMao` servirá para indicar qual carta da mão foi selecionada. Essa classe deve ter um construtor padrão (sem receber nenhum parâmetro) que inicializa a `mao` (inicializa o vetor) e inicializa o valor do `indiceMao` com `0`. O jogador também deve ter um método `recebeCarta(Carta c)` que insere uma carta no vetor `mao`, na posição `indiceMao`. Você deve incrementar `indiceMao` após receber a carta. Arquivo [Jogador](./Questão 03/Jogador.java).
+Implemente uma classe `Jogador` que contenha os atributos: `mao`, do tipo `Carta[]` (um vetor de cartas) e `indiceMao` do tipo `int`. A `mao` deve ter tamanho `3`. O `indiceMao` servirá para indicar qual carta da mão foi selecionada. Essa classe deve ter um construtor padrão (sem receber nenhum parâmetro) que inicializa a `mao` (inicializa o vetor) e inicializa o valor do `indiceMao` com `0`. O jogador também deve ter um método `recebeCarta(Carta c)` que insere uma carta no vetor `mao`, na posição `indiceMao`. Você deve incrementar `indiceMao` após receber a carta. Arquivo [Jogador](https://github.com/gregori/Avaliacao1Mobile/blob/master/Quest%C3%A3o%2003/Jogador.java).
 
 #### (b) - 1,5 ponto
 Implemente uma classe `Truco` que contém como atributos dois `Jogador`es, um `Baralho`, uma `cartaVirada` do tipo `Carta`. Sua classe deve ter um construtor padrão que inicializa cada um desses atributos (basicamente faz `new` neles). Deve ter um método privado `embaralharCartas()` que chama o método `embaralha()` do `Baralho`, um método privado `distribuirMaos()`, que deve distribuir três cartas do baralho para cada jogador (lembre-se do método `receberCarta` de `Jogador`). Você também deve implementar um método `inicializaManilha()`, que põe uma carta na meso (distribui uma carta do baralho e atribui a `cartaVirada`). Esses métodos que você implementar, vão complementar a classe truco. Para sua referência, segue o método `jogar()`, que implementa a lógica básica do início do jogo:
+Arquivo [Jogador](https://github.com/gregori/Avaliacao1Mobile/blob/master/Quest%C3%A3o%2003/Truco.java).
 
 ```java
 public void jogar() {
