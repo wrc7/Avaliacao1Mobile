@@ -16,7 +16,7 @@ Siga as instruções contidas no README, para a execução da sua prova.
 
 ### Questão 01
 
-Arquivo: [Circulo](./Questão 01/Circulo.java)
+Arquivo: [Circulo](https://github.com/gregori/Avaliacao1Mobile/blob/master/Quest%C3%A3o%2001/Circulo.java)
 
 Observe o código da classe `Circulo` abaixo:
 
