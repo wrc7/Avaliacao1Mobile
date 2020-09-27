@@ -1,7 +1,5 @@
 # Avaliação 1 - Desenvolvimento para Dispositivos Móveis
-
 ## Católica SC - 28 de setembro de 2020
-
 ### Prof. Rodrigo Habib Gregori
 
 Siga as instruções contidas no README, para a execução da sua prova.
