@@ -82,24 +82,29 @@ public interface Redimensionavel {
 
 #### (a) - 1,5 ponto
 Arquivo: [Quadrado](https://github.com/gregori/Avaliacao1Mobile/blob/master/Quest%C3%A3o%2002/Quadrado.java)
+
 Implemente uma classe `Quadrado`, que possui um atributo `lado` de tipo `double`. Implemente um construtor que preenche o atributo `lado`. Faça com que essa classe __implemente__ a interface `Geometria`.
 
 #### (b) - 1,5 ponto
 Arquivo: [QuadradoRedimensionavel](https://github.com/gregori/Avaliacao1Mobile/blob/master/Quest%C3%A3o%2002/QuadradoRedimensionavel.java)
+
 Implemente uma classe `QuadradoRedimensionavel`, que é _subclasse_ de `Quadrado` e implementa a interface `Redimensionavel`. Essa classe deve _implementar_  um construtor que recebe o valor de `lado` e o transmite para o construtor da __superclasse__.
 
 
 ### Questão 03
 Observe o diagrama abaixo, que modela classes para um jogo de truco.
 
-![Classes de baralho](http://yuml.me/9289a384.jpg, "Classes Carta e Baralho")
+![Classes de baralho](http://yuml.me/9289a384.jpg "Classes Carta e Baralho")
 
 #### (a) - 1,5 ponto
-Implemente uma classe `Jogador` que contenha os atributos: `mao`, do tipo `Carta[]` (um vetor de cartas) e `indiceMao` do tipo `int`. A `mao` deve ter tamanho `3`. O `indiceMao` servirá para indicar qual carta da mão foi selecionada. Essa classe deve ter um construtor padrão (sem receber nenhum parâmetro) que inicializa a `mao` (inicializa o vetor) e inicializa o valor do `indiceMao` com `0`. O jogador também deve ter um método `recebeCarta(Carta c)` que insere uma carta no vetor `mao`, na posição `indiceMao`. Você deve incrementar `indiceMao` após receber a carta. Arquivo [Jogador](https://github.com/gregori/Avaliacao1Mobile/blob/master/Quest%C3%A3o%2003/Jogador.java).
+Implemente uma classe `Jogador` que contenha os atributos: `mao`, do tipo `Carta[]` (um vetor de cartas) e `indiceMao` do tipo `int`. A `mao` deve ter tamanho `3`. O `indiceMao` servirá para indicar qual carta da mão foi selecionada. Essa classe deve ter um construtor padrão (sem receber nenhum parâmetro) que inicializa a `mao` (inicializa o vetor) e inicializa o valor do `indiceMao` com `0`. O jogador também deve ter um método `recebeCarta(Carta c)` que insere uma carta no vetor `mao`, na posição `indiceMao`. Você deve incrementar `indiceMao` após receber a carta. 
+
+Arquivo [Jogador](https://github.com/gregori/Avaliacao1Mobile/blob/master/Quest%C3%A3o%2003/Jogador.java).
 
 #### (b) - 1,5 ponto
 Implemente uma classe `Truco` que contém como atributos dois `Jogador`es, um `Baralho`, uma `cartaVirada` do tipo `Carta`. Sua classe deve ter um construtor padrão que inicializa cada um desses atributos (basicamente faz `new` neles). Deve ter um método privado `embaralharCartas()` que chama o método `embaralha()` do `Baralho`, um método privado `distribuirMaos()`, que deve distribuir três cartas do baralho para cada jogador (lembre-se do método `receberCarta` de `Jogador`). Você também deve implementar um método `inicializaManilha()`, que põe uma carta na meso (distribui uma carta do baralho e atribui a `cartaVirada`). Esses métodos que você implementar, vão complementar a classe truco. Para sua referência, segue o método `jogar()`, que implementa a lógica básica do início do jogo:
-Arquivo [Jogador](https://github.com/gregori/Avaliacao1Mobile/blob/master/Quest%C3%A3o%2003/Truco.java).
+
+Arquivo [Truco](https://github.com/gregori/Avaliacao1Mobile/blob/master/Quest%C3%A3o%2003/Truco.java).
 
 ```java
 public void jogar() {
