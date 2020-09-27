@@ -45,7 +45,7 @@ public class Circulo
 ```
 
 #### (a) - 1 ponto
-Adicione à classe um _construtor_ que permita criar um `Circulo` com dois marâmetros: um `double` para o `raio` e um `String` para `cor`. Use a assinatura abaixo como base:
+Adicione à classe um _construtor_ que permita criar um `Circulo` com dois parâmetros: um `double` para o `raio` e um `String` para `cor`. Use a assinatura abaixo como base:
 ```java
 public Circulo(double raio, String cor)
 ```
