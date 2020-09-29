@@ -20,6 +20,8 @@ public class Circulo
     */
     public Circulo(double raio, String cor) {
         // escreva aqui sua resposta
+        this.raio = raio;
+        this.cor = cor;
     }
 
     // Métodos de acesso
@@ -35,5 +37,6 @@ public class Circulo
         return "Circulo [raio=" + raio + ", cor=" + cor + "]";
     }
     // O que a palavra `@Override` indica? Por que ela foi colocada neste método da classe?
-    // Resposta:
+    // Resposta: @Override é uma notação que pode ser acresentada a um método que foi sobreposto.
+    //           Ela foi colocada nesse método para garantir que não vamos sobrescrever o que não foi herdado.
 }
